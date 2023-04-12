@@ -432,3 +432,11 @@ nav .fas {
     flex-basis: 100%;
   }
 }
+.certify ul li a {
+  text-decoration: none;
+  color: rgb(133, 2, 128);
+  font-weight: 600;
+}
+.certify ul li a:visited {
+  color: rgb(133, 2, 128) !important;
+}
