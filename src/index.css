@@ -1,0 +1,78 @@
+.navbar{
+    font-size: larger;
+}
+.about a{
+  color: #4a0207;
+  font-weight: 500;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills{
+    background-image:url("/assets/skills.jpg") ;
+    height: 300px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight:400;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+.projects {
+    color: black;
+}
+.projects a{
+    margin: 15px;
+    text-decoration: none;
+    color: bisque;
+    font-weight: 500;
+}
+#contact .sub-title {
+    font-size: 28px;
+    color: #043f4d;
+  }
+  
+  #contact ul {
+    padding-left: 0;
+  }
+  
+  #contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  #contact ul li i {
+    margin-right: 10px;
+  }
+  
+  #contact .social-icons .btn {
+    margin-right: 10px;
+  }
+  
+  #contact .social-icons .btn i {
+    font-size: 18px;
+  }
+  
+  #contact .btn-outline-primary {
+    color: #007bff;
+    border-color: #043f4d;
+  }
+  
+  #contact .btn-outline-primary:hover {
+    background-color: #4fa4d5;
+    color: #fff;
+  }
+  
+  #contact .btn-primary {
+    background-color: #043f4d;
+    border-color: #043f4d;
+  }
+  
+  #contact .btn-primary:hover {
+    background-color: #021c23;
+    border-color: #021c23;
+  }
+  .list-unstyled a{
+    text-decoration: none;
+    color: rgb(23, 39, 37);
+  }
+  .social-icons a i{
+    color: #043f4d;
+  }
