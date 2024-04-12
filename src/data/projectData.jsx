@@ -24,7 +24,7 @@ export const projects = [
     description:
       "This is an E-Commerce website that shows the different types of products listed by the admin.",
     gitHubLink: "https://github.com/HemantWD/Ecommerce-_-MERN",
-    liveLink: "",
+    liveLink: "https://lazy-tan-shrimp-coat.cyclic.app/",
   },
   {
     id: 4,

@@ -18,11 +18,19 @@ const Project = () => {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div>
-                <a href={project.liveLink || "#"} target="_blank">
-                  <i className="fa-solid fa-link"></i>
+                <a
+                  href={project.liveLink || "#"}
+                  className="text-info"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-link  "></i>
                   {project.liveLink ? "Live Link" : "Yet To Be Deployed"}
                 </a>
-                <a href={project.gitHubLink} target="_blank">
+                <a
+                  href={project.gitHubLink}
+                  className="text-info"
+                  target="_blank"
+                >
                   <i className="fa-brands fa-github"></i> GitHub
                 </a>
               </div>

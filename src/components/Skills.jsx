@@ -11,7 +11,9 @@ const Skills = () => {
               <div className="card-icon m-3">{item.image}</div>
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
-                <p className="card-text">{item.description}</p>
+                <p className="card-text">
+                  {item.description.substring(0, 90)}...
+                </p>
 
                 <a
                   href={item.link}
